@@ -1,16 +1,42 @@
-# React + Vite
+# HR Dashboard – Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
+This is a modern Employee Management Dashboard built using React.js.  
+The application allows users to manage employee records with features like:
+- Add, Edit, Delete employees
+- Profile image upload with preview
+- Filter employees by gender and status
+- Search employees by name
+- Print employee list
+- Authentication using localStorage
 
-Currently, two official plugins are available:
+This project was developed as part of a technical assignment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🛠 Tech Stack
+- **Frontend:** React.js (Vite)
+- **Styling:** Tailwind CSS
+- **Icons:** React Icons
+- **State Management:** React Hooks
+- **Authentication:** Local Storage
+- **Mock API:** Simulated API calls using setTimeout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Features
+- Modern UI & UX
+- Responsive design
+- Reusable components
+- Form validation
+- Image preview before save
+- Loading & empty states
+- Clean folder structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Steps to Run Locally
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/ShivaEnduri/employee-management
